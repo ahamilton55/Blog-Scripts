@@ -6,11 +6,6 @@ APTITUDE=`which aptitude`
 APT_KEY=`which apt-key`
 
 ###########
-# Ping outside so that the router finds this instance * Should be fixed soon!*
-###########
-ping -c 4 8.8.8.8
-
-###########
 # Setup the hostname for the system. Puppet really relies on 
 # the hostname so this must be done.
 ###########

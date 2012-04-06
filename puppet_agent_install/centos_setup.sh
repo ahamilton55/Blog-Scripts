@@ -8,11 +8,6 @@ EPEL_PACKAGE="epel-release-5-4.noarch.rpm"
 EPEL_URL="http://dl.fedoraproject.org/pub/epel/5/i386/"
 
 ###########
-# Ping outside so that the router finds this instance * Should be fixed soon!*
-###########
-ping -c 4 8.8.8.8
-
-###########
 # Setup the hostname for the system. Puppet really relies on 
 # the hostname so this must be done.
 ###########
